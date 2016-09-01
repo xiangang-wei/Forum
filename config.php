@@ -1,20 +1,19 @@
 <?php
 /******************************************************
-------------------Required Configuration---------------
-Please edit the following variables so the forum can
-work correctly.
-******************************************************/
+ * ------------------Required Configuration---------------
+ * Please edit the following variables so the forum can
+ * work correctly.
+ ******************************************************/
 
 //We log to the DataBase
 mysql_connect('host', 'username', 'password');
 mysql_select_db('database_name');
-
 //Username of the Administrator
-$admin='admin';
+$admin = 'admin';
 
 /******************************************************
------------------Optional Configuration----------------
-******************************************************/
+ * -----------------Optional Configuration----------------
+ ******************************************************/
 
 //Forum Home Page
 $url_home = 'index.php';
@@ -24,7 +23,7 @@ $design = 'default';
 
 
 /******************************************************
-----------------------Initialization-------------------
-******************************************************/
+ * ----------------------Initialization-------------------
+ ******************************************************/
 include('init.php');
 ?>
